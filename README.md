@@ -1,6 +1,8 @@
-# Nathan Fallahi's Home Page
+# Nathan Fallahi's Home Page and Portfolio
 ## nashafa.com
 
-This is a serious WIP
+Temporary hosting at home.nashafa.com because of GitHub Pages limitation
 
-temporary hosting at home.nashafa.com cuz GitHub Pages is a *cough* bitch *cough*
+TODO:
+ - add portfolio
+ - add link to blog

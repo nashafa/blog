@@ -1,57 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Nashafa</title>
-    
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
-    <link href="stylesheet.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
-</head>
-
-<body>
-
-    <div class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="one">
-                <p class="xx">na</p>
-                <p class="two">than</p>
-            </div>
-            <div class="one">
-                <p class="xx">sha</p>
-                <p class="two">yan</p>
-            </div>
-            <div class="one">
-                <p class="xx">fa</p>
-                <p class="two">llahi</p>
-            </div>
-            <a id="blog_link" href="https://blog.nashafa.com">Blog</a>
-        </div>
+  <head>
+    <title>Nathan Fallahi</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Pacifico');
+      html, body {
+        height: 100%;
+      }
+      #background {
+        background-image:url(assets/background.jpg);
+        height: 110%;
+        width: 110%;
+        position:absolute;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        filter: blur(5px);
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      #header {
+        font: 7vmax Pacifico, serif;
+      }
+      img {
+        height: 5vmax;
+        width: 5vmax;
+      }
+      #social_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .social {
+        padding: 1vmax;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background"></div>
+    <div id="header">Nathan Fallahi</div>
+    <div id="social_box">
+      <div class="social" id="facebook">
+        <a href="https://www.facebook.com/nsfallahi"><img src="assets/facebook.svg" alt="Facebook"></img></a>
+      </div>
+      <div class="social" id="twitter">
+        <a href="https://twitter.com/Nashafa"><img src="assets/twitter.svg" alt="Twitter"></img></a>
+      </div>
+      <div class="social" id="instagram">
+        <a href="https://www.instagram.com/nashafa/"><img src="assets/instagram.svg" alt="Instagram"></img></a>
+      </div>
+      <div class="social" id="linkedin">
+        <a href="https://www.linkedin.com/in/nashafa/"><img src="assets/linkedin.svg" alt="Linkedin"></img></a>
+      </div>
+      <div class="social" id="github">
+        <a href="https://github.com/nashafa"><img src="assets/github.svg" alt="GitHub"></img></a>
+      </div>
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-</body>
-
+  </body>
 </html>
